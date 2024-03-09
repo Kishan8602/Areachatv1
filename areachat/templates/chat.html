@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with AI</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box; }
+        #chat-container { max-width: 600px; margin: 20px auto; border: 1px solid #ddd; padding: 10px; }
+        #chat-history { height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+        #chat-history p { margin: 0; padding: 5px; }
+        .user-message { text-align: right; }
+        .ai-message { text-align: left; }
+        #message { width: calc(100% - 90px); padding: 10px; }
+        #send { width: 80px; padding: 10px; }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-history"></div>
+        <input type="text" id="message" placeholder="Type your message...">
+        <button id="send">Send</button>
+    </div>
+
+    <script>
+        document.getElementById("send").onclick = sendMessage;
+        document.getElementById("message").addEventListener("keypress", function(e) {
+            if (e.key === "Enter") {
+                sendMessage();
+            }
+        });
+
+        function sendMessage() {
+            let messageInput = document.getElementById("message");
+            let userMessage = messageInput.value;
+            if (userMessage.trim() === '') return;
+
+            addMessageToChatHistory('You', userMessage, 'user-message');
+
+            fetch("/get_response", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: userMessage })
+            })
+            .then(response => response.json())
+            .then(data => {
+                addMessageToChatHistory('AI', data.response, 'ai-message');
+                messageInput.value = ""; // Clear input after sending
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        function addMessageToChatHistory(sender, message, className) {
+            let chatHistory = document.getElementById("chat-history");
+            let messageElement = document.createElement("p");
+            messageElement.className = className;
+            messageElement.textContent = `${sender}: ${message}`;
+            chatHistory.appendChild(messageElement);
+            chatHistory.scrollTop = chatHistory.scrollHeight; // Scroll to the bottom
+        }
+    </script>
+</body>
+</html>
