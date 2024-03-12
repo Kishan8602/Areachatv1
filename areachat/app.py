@@ -6,8 +6,8 @@ import requests
 app = Flask(__name__)
 
 # Environment variables for API keys
-openai.api_key = ('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')
-wit_ai_api_key = ('CXCPPWRYPQZBOJGTWWNHD7W72JLRUUXL')
+openai.api_key = ('')
+wit_ai_api_key = ('')
 
 @app.route("/")
 def chat():
@@ -15,7 +15,7 @@ def chat():
 #
 def get_wit_ai_response(message):
     """Send user message to Wit.ai and get intent and entities."""
-    headers = {'Authorization': f'Bearer CXCPPWRYPQZBOJGTWWNHD7W72JLRUUXL'}
+    headers = {'Authorization': f'Bearer '}
     wit_ai_url = f'https://api.wit.ai/message?v=20240312&q={message}'
     response = requests.get(wit_ai_url, headers=headers)
     if response.status_code == 200:
