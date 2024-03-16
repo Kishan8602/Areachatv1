@@ -6,6 +6,7 @@ import os
 app = Flask(__name__)
 app.secret_key = 'kishaisghae'  # Replace with a real secret key in production
 
+# Ensure these API keys are set in your environment variables or securely stored
 openai.api_key = ''
 wit_ai_api_key = 'CXCPPWRYPQZBOJGTWWNHD7W72JLRUUXL'
 
@@ -35,17 +36,15 @@ def get_response():
     intent = wit_ai_response['intents'][0]['name'] if wit_ai_response.get('intents') else 'unknown_intent'
     confidence = wit_ai_response['intents'][0]['confidence'] if wit_ai_response.get('intents') else 0
 
-    if user_message.lower() in ['thank you', 'end']:
-        response_message = "Thank you for your input. The conversation has ended."
+    if intent == 'end_conversation' and confidence > 0.5:
+        requirements = process_conversation_to_requirements(session['conversation'])
         session['conversation'] = []
-    elif intent == 'greeting':
-        response_message = "Hello! How can I assist you with your requirements today?"
-    elif intent == 'HelpRequest' and user_message.lower().strip().endswith('summary?'):
-        response_message = process_conversation_to_requirements(session['conversation'])
-        session['conversation'] = []
-    elif confidence > 0.5:
+        return jsonify({"response": "Conversation ended. Requirements gathered.", "requirements": requirements})
+    elif intent != 'greeting' and confidence > 0.5:
         store_requirement(user_message, intent)
-        response_message = f"I understand you want to {intent}. Can you provide more details?"
+        response_message = "Requirement understood. You can continue or end the conversation."
+    elif intent == 'greeting':
+        response_message = "Hello! How can I assist you with your requirements?"
     else:
         response_message = generate_clarification_request(user_message, intent, session['conversation'])
 
