@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = 'kishaisghae'  # Replace with a real secret key in production
 
 # Ensure these API keys are set in your environment variables or securely stored
-openai.api_key = ('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')
+openai.api_key = 
 wit_ai_api_key = 'CXCPPWRYPQZBOJGTWWNHD7W72JLRUUXL'
 
 def get_wit_ai_response(message):
