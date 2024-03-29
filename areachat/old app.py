@@ -4,7 +4,7 @@ import requests
 import os
 
 app = Flask(__name__)
-app.secret_key = 'kishaisghae'  # Replace with a real secret key in production
+app.secret_key = 'areachat123'  # Replace with a real secret key in production
 
 # Ensure these API keys are set in your environment variables or securely stored
 openai.api_key = 
