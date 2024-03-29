@@ -1,0 +1,115 @@
+{
+    "name": "UserRole",
+    "roles": [
+        "Adminrole",
+        "UserRole"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "API user",
+            "synonyms": [
+                "api user"
+            ]
+        },
+        {
+            "keyword": "Admin users",
+            "synonyms": [
+                "admin users"
+            ]
+        },
+        {
+            "keyword": "Administrator",
+            "synonyms": [
+                "administrator"
+            ]
+        },
+        {
+            "keyword": "CMS administrator",
+            "synonyms": [
+                "cms administrator"
+            ]
+        },
+        {
+            "keyword": "Consumer",
+            "synonyms": [
+                "consumer"
+            ]
+        },
+        {
+            "keyword": "Data Consuming User",
+            "synonyms": [
+                "data consuming user"
+            ]
+        },
+        {
+            "keyword": "Data Publishing User",
+            "synonyms": [
+                "data publishing user"
+            ]
+        },
+        {
+            "keyword": "Developer",
+            "synonyms": [
+                "developer"
+            ]
+        },
+        {
+            "keyword": "Publisher",
+            "synonyms": [
+                "publishe",
+                "publisher"
+            ]
+        },
+        {
+            "keyword": "admin",
+            "synonyms": [
+                "admin"
+            ]
+        },
+        {
+            "keyword": "agency user",
+            "synonyms": [
+                "agency user"
+            ]
+        },
+        {
+            "keyword": "at least 1000 users",
+            "synonyms": [
+                "at least 1000 users"
+            ]
+        },
+        {
+            "keyword": "executive",
+            "synonyms": [
+                "executive"
+            ]
+        },
+        {
+            "keyword": "international teams.",
+            "synonyms": [
+                "international teams."
+            ]
+        },
+        {
+            "keyword": "user",
+            "synonyms": [
+                "user"
+            ]
+        },
+        {
+            "keyword": "users",
+            "synonyms": [
+                "users"
+            ]
+        },
+        {
+            "keyword": "visitors",
+            "synonyms": [
+                "visitors"
+            ]
+        }
+    ]
+}

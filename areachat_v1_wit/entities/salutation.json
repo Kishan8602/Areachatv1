@@ -1,0 +1,66 @@
+{
+    "name": "Salutation",
+    "roles": [
+        "Salutation"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Good day",
+            "synonyms": [
+                "good day"
+            ]
+        },
+        {
+            "keyword": "Good evening",
+            "synonyms": [
+                "good evening"
+            ]
+        },
+        {
+            "keyword": "Good morning",
+            "synonyms": [
+                "good morning"
+            ]
+        },
+        {
+            "keyword": "Great",
+            "synonyms": [
+                "great"
+            ]
+        },
+        {
+            "keyword": "Greetings",
+            "synonyms": [
+                "greetings"
+            ]
+        },
+        {
+            "keyword": "Hello",
+            "synonyms": [
+                "hello"
+            ]
+        },
+        {
+            "keyword": "Hey",
+            "synonyms": [
+                "hey"
+            ]
+        },
+        {
+            "keyword": "Hi",
+            "synonyms": [
+                "hi"
+            ]
+        },
+        {
+            "keyword": "Hi there",
+            "synonyms": [
+                "hi there"
+            ]
+        }
+    ]
+}

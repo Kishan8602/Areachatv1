@@ -1,0 +1,9 @@
+{
+    "name": "Confirmation",
+    "entities": [
+        "PriorityLevel:high",
+        "RequirementType:RequirementType",
+        "RequirementType:scope",
+        "UserRole:UserRole"
+    ]
+}

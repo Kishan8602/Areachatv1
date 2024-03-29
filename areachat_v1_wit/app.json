@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip areachat_v1.zip areachat_v1\/app.json areachat_v1\/entities\/*.json areachat_v1\/intents\/*.json areachat_v1\/traits\/*.json areachat_v1\/utterances\/*.json areachat_v1\/composer\/*.json",
+    "name": "areachat_v1",
+    "lang": "en",
+    "timezone": "America\/Los_Angeles"
+}

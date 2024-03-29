@@ -1,0 +1,10 @@
+{
+    "name": "HelpRequest",
+    "entities": [
+        "FunctionalArea:FunctionalArea",
+        "RequirementType:RequirementType",
+        "RequirementType:scope",
+        "RequirementType:unit",
+        "help:help"
+    ]
+}

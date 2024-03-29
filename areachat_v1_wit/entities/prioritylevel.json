@@ -1,0 +1,109 @@
+{
+    "name": "PriorityLevel",
+    "roles": [
+        "PriorityLevel",
+        "high"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "after they are made",
+            "synonyms": [
+                "after they are made"
+            ]
+        },
+        {
+            "keyword": "all",
+            "synonyms": [
+                "all"
+            ]
+        },
+        {
+            "keyword": "automatically",
+            "synonyms": [
+                "automatically"
+            ]
+        },
+        {
+            "keyword": "confident",
+            "synonyms": [
+                "confident"
+            ]
+        },
+        {
+            "keyword": "critical",
+            "synonyms": [
+                "critical"
+            ]
+        },
+        {
+            "keyword": "crucial",
+            "synonyms": [
+                "crucial"
+            ]
+        },
+        {
+            "keyword": "easily",
+            "synonyms": [
+                "easily"
+            ]
+        },
+        {
+            "keyword": "full",
+            "synonyms": [
+                "full"
+            ]
+        },
+        {
+            "keyword": "important",
+            "synonyms": [
+                "important"
+            ]
+        },
+        {
+            "keyword": "launch",
+            "synonyms": [
+                "launch"
+            ]
+        },
+        {
+            "keyword": "necessities",
+            "synonyms": [
+                "necessities"
+            ]
+        },
+        {
+            "keyword": "sensitive",
+            "synonyms": [
+                "sensitive"
+            ]
+        },
+        {
+            "keyword": "the ones I want",
+            "synonyms": [
+                "the ones i want"
+            ]
+        },
+        {
+            "keyword": "used in any visualisation",
+            "synonyms": [
+                "used in any visualisation"
+            ]
+        },
+        {
+            "keyword": "without any significant delay",
+            "synonyms": [
+                "without any significant delay"
+            ]
+        },
+        {
+            "keyword": "without performance degradation",
+            "synonyms": [
+                "without performance degradation"
+            ]
+        }
+    ]
+}

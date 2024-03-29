@@ -1,0 +1,84 @@
+{
+    "name": "help",
+    "roles": [
+        "help"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Can you show me",
+            "synonyms": [
+                "can you show me"
+            ]
+        },
+        {
+            "keyword": "How",
+            "synonyms": [
+                "how"
+            ]
+        },
+        {
+            "keyword": "What information do we need",
+            "synonyms": [
+                "what information do we need"
+            ]
+        },
+        {
+            "keyword": "can you assist",
+            "synonyms": [
+                "can you assist"
+            ]
+        },
+        {
+            "keyword": "confused",
+            "synonyms": [
+                "confused"
+            ]
+        },
+        {
+            "keyword": "dive",
+            "synonyms": [
+                "dive"
+            ]
+        },
+        {
+            "keyword": "guide me",
+            "synonyms": [
+                "guide me"
+            ]
+        },
+        {
+            "keyword": "how to describe",
+            "synonyms": [
+                "how to describe"
+            ]
+        },
+        {
+            "keyword": "me",
+            "synonyms": [
+                "me"
+            ]
+        },
+        {
+            "keyword": "need assistance",
+            "synonyms": [
+                "need assistance"
+            ]
+        },
+        {
+            "keyword": "summary",
+            "synonyms": [
+                "summary"
+            ]
+        },
+        {
+            "keyword": "tech needs",
+            "synonyms": [
+                "tech needs"
+            ]
+        }
+    ]
+}

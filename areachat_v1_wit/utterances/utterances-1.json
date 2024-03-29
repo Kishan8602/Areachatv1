@@ -1,0 +1,2883 @@
+{
+    "utterances": [
+        {
+            "text": "\"Good evening, time to talk about our project's necessities.",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 1,
+                    "end": 13,
+                    "body": "Good evening",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:high",
+                    "start": 48,
+                    "end": 59,
+                    "body": "necessities",
+                    "entities": []
+                },
+                {
+                    "entity": "begining:begining",
+                    "start": 15,
+                    "end": 27,
+                    "body": "time to talk",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Admin users must have the ability to rollback changes up to seven days after they are made.",
+            "entities": [
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 37,
+                    "end": 70,
+                    "body": "rollback changes up to seven days",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 71,
+                    "end": 90,
+                    "body": "after they are made",
+                    "entities": []
+                },
+                {
+                    "entity": "UserRole:Adminrole",
+                    "start": 0,
+                    "end": 11,
+                    "body": "Admin users",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "Alright, I'm signing off for now, goodbye",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 0,
+                    "end": 32,
+                    "body": "Alright, I'm signing off for now",
+                    "entities": []
+                },
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 34,
+                    "end": 41,
+                    "body": "goodbye",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "Farewell"
+        },
+        {
+            "text": "As a CMS administrator I want to have roles so that I can assign them to my users.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 22,
+                    "body": "CMS administrator",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 30,
+                    "end": 43,
+                    "body": "to have roles",
+                    "entities": []
+                },
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 75,
+                    "end": 81,
+                    "body": " users",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 54,
+                    "end": 69,
+                    "body": "can assign them",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Consumer I want to search data packages so that that I can find the ones I want.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 13,
+                    "body": "Consumer",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 24,
+                    "end": 30,
+                    "body": "search",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 31,
+                    "end": 35,
+                    "body": "data",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 69,
+                    "end": 84,
+                    "body": "the ones I want",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Data Consuming User I want  to be able to filter sort and aggregate data by multiple dimensions and measures So that I can get more granular views on the data.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 4,
+                    "end": 25,
+                    "body": " Data Consuming User ",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 1,
+                            "end": 5,
+                            "body": "Data",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 46,
+                    "end": 114,
+                    "body": " filter sort and aggregate data by multiple dimensions and measures ",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 27,
+                            "end": 31,
+                            "body": "data",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 159,
+                    "end": 163,
+                    "body": "data",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 137,
+                    "end": 152,
+                    "body": "granular views ",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Data Consuming User I want to be able to download a CSV of the data that is used in any visualisation I am viewing So that I can use the data in other tools.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 24,
+                    "body": "Data Consuming User",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 0,
+                            "end": 4,
+                            "body": "Data",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 46,
+                    "end": 56,
+                    "body": "download a",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 57,
+                    "end": 60,
+                    "body": "CSV",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 68,
+                    "end": 72,
+                    "body": "data",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 142,
+                    "end": 161,
+                    "body": "data in other tools",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 81,
+                    "end": 106,
+                    "body": "used in any visualisation",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Data Consuming User I want to be able to share a view state as a URL to social networks So that I can share data that I have found with others.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 24,
+                    "body": "Data Consuming User",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 0,
+                            "end": 4,
+                            "body": "Data",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 46,
+                    "end": 53,
+                    "body": "share a",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 54,
+                    "end": 92,
+                    "body": "view state as a URL to social networks",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:software",
+                            "start": 16,
+                            "end": 20,
+                            "body": "URL ",
+                            "entities": []
+                        },
+                        {
+                            "entity": "FunctionalArea:FunctionalArea",
+                            "start": 23,
+                            "end": 38,
+                            "body": "social networks",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 107,
+                    "end": 147,
+                    "body": "share data that I have found with others",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 6,
+                            "end": 11,
+                            "body": "data ",
+                            "entities": []
+                        }
+                    ]
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Data Publishing User , I want to have a functioning Python Client  So that I can add data to the datastore in bulk from the command line or my own programs",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 25,
+                    "body": "Data Publishing User",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 57,
+                    "end": 70,
+                    "body": "Python Client",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:software",
+                            "start": 0,
+                            "end": 6,
+                            "body": "Python",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 86,
+                    "end": 141,
+                    "body": "add data to the datastore in bulk from the command line",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 145,
+                    "end": 160,
+                    "body": "my own programs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Data Publishing User I want to be able to edit a dataset I have   published so that I can correct or enhance existing data.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 25,
+                    "body": "Data Publishing User",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 47,
+                    "end": 68,
+                    "body": "edit a dataset I have",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 7,
+                            "end": 14,
+                            "body": "dataset",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 71,
+                    "end": 105,
+                    "body": "published so that I can correct or",
+                    "entities": [
+                        {
+                            "entity": "UserRole:Adminrole",
+                            "start": 0,
+                            "end": 8,
+                            "body": "publishe",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 106,
+                    "end": 127,
+                    "body": "enhance existing data",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 17,
+                            "end": 21,
+                            "body": "data",
+                            "entities": []
+                        }
+                    ]
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Data Publishing User I want to be able to import data in Excel So that I do not have to convert data formats in order to use the data packager.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 25,
+                    "body": "Data Publishing User",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 0,
+                            "end": 4,
+                            "body": "Data",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 47,
+                    "end": 61,
+                    "body": "import data in",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 7,
+                            "end": 11,
+                            "body": "data",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 62,
+                    "end": 67,
+                    "body": "Excel",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 101,
+                    "end": 122,
+                    "body": "data formats in order",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 134,
+                    "end": 146,
+                    "body": "data package",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Data Publishing User I want to know if my CSV file is valid",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 25,
+                    "body": "Data Publishing User",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 47,
+                    "end": 64,
+                    "body": "CSV file is valid",
+                    "entities": [
+                        {
+                            "entity": "SoftwareComponent:SoftwareComponent",
+                            "start": 0,
+                            "end": 3,
+                            "body": "CSV",
+                            "entities": []
+                        }
+                    ]
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Developer , I want to be able to customise the Brand   Name and Icon, and Primary Color of all frontend Javascript   apps So that I can customise the branding for my   own needs",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 14,
+                    "body": "Developer",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 38,
+                    "end": 47,
+                    "body": "customise",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 52,
+                    "end": 57,
+                    "body": "Brand",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 60,
+                    "end": 73,
+                    "body": "Name and Icon",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 79,
+                    "end": 92,
+                    "body": "Primary Color",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 109,
+                    "end": 119,
+                    "body": "Javascript",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 122,
+                    "end": 182,
+                    "body": "apps So that I can customise the branding for my   own needs",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Publisher  I want to be able to restore the deleted data package via cli so that that it is back visible and available to view  download.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 14,
+                    "body": "Publisher",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 37,
+                    "end": 44,
+                    "body": "restore",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 49,
+                    "end": 56,
+                    "body": "deleted",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 57,
+                    "end": 69,
+                    "body": "data package",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 102,
+                    "end": 109,
+                    "body": "visible",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 114,
+                    "end": 123,
+                    "body": "available",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 127,
+                    "end": 141,
+                    "body": "view  download",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 74,
+                    "end": 78,
+                    "body": "cli ",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As a Publisher I want to undelete the deleted data packages so that that the deleted data packages is now visible again.",
+            "entities": [
+                {
+                    "entity": "UserRole:Adminrole",
+                    "start": 5,
+                    "end": 14,
+                    "body": "Publisher",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 38,
+                    "end": 45,
+                    "body": "deleted",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 46,
+                    "end": 50,
+                    "body": "data",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 77,
+                    "end": 84,
+                    "body": "deleted",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 85,
+                    "end": 101,
+                    "body": "data packages is",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 106,
+                    "end": 113,
+                    "body": "visible",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:software",
+                            "start": 0,
+                            "end": 7,
+                            "body": "visible",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 24,
+                    "end": 33,
+                    "body": " undelete",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As an API User I want to be able to get a CSV output of any   cube-based query  So that I can use work with tools that read CSV",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 14,
+                    "body": "API User",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 36,
+                    "end": 39,
+                    "body": "get",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 42,
+                    "end": 45,
+                    "body": "CSV",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 46,
+                    "end": 78,
+                    "body": "output of any   cube-based query",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 98,
+                    "end": 127,
+                    "body": "work with tools that read CSV",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:software",
+                            "start": 26,
+                            "end": 29,
+                            "body": "CSV",
+                            "entities": []
+                        }
+                    ]
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As an API User I want to be able to understand if a user is   a Publisher So that I can offer functionality based on   Dataset Publisher privileges",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 14,
+                    "body": "API User",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 36,
+                    "end": 73,
+                    "body": "understand if a user is   a Publisher",
+                    "entities": [
+                        {
+                            "entity": "UserRole:Adminrole",
+                            "start": 28,
+                            "end": 37,
+                            "body": "Publisher",
+                            "entities": []
+                        },
+                        {
+                            "entity": "UserRole:UserRole",
+                            "start": 16,
+                            "end": 20,
+                            "body": "user",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 88,
+                    "end": 107,
+                    "body": "offer functionality",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:software",
+                            "start": 0,
+                            "end": 19,
+                            "body": "offer functionality",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 119,
+                    "end": 147,
+                    "body": "Dataset Publisher privileges",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As an API User I want to be able to use metadata to get   results from multiple datasets  So that I can build user experiences based on more than one dataset more easily",
+            "entities": [
+                {
+                    "entity": "UserRole:Adminrole",
+                    "start": 6,
+                    "end": 14,
+                    "body": "API User",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 36,
+                    "end": 88,
+                    "body": "use metadata to get   results from multiple datasets",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 4,
+                            "end": 12,
+                            "body": "metadata",
+                            "entities": []
+                        },
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 44,
+                            "end": 52,
+                            "body": "datasets",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 104,
+                    "end": 109,
+                    "body": "build",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 110,
+                    "end": 135,
+                    "body": "user experiences based on",
+                    "entities": [
+                        {
+                            "entity": "UserRole:UserRole",
+                            "start": 0,
+                            "end": 4,
+                            "body": "user",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 150,
+                    "end": 157,
+                    "body": "dataset",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As an API user I want to be able to understand if a user is   an Administrator So that I can offer functionality based on  Platform Administration privileges.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 14,
+                    "body": "API user",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 33,
+                    "end": 78,
+                    "body": "to understand if a user is   an Administrator",
+                    "entities": [
+                        {
+                            "entity": "UserRole:UserRole",
+                            "start": 19,
+                            "end": 23,
+                            "body": "user",
+                            "entities": []
+                        },
+                        {
+                            "entity": "UserRole:Adminrole",
+                            "start": 32,
+                            "end": 45,
+                            "body": "Administrator",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 93,
+                    "end": 157,
+                    "body": "offer functionality based on  Platform Administration privileges",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:unit",
+                            "start": 30,
+                            "end": 64,
+                            "body": "Platform Administration privileges",
+                            "entities": []
+                        }
+                    ]
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As an API user I want to be able to understand if a user is a Publisher So that I can offer functionality based on  dataset publisher privileges.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 14,
+                    "body": "API user",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 36,
+                    "end": 71,
+                    "body": "understand if a user is a Publisher",
+                    "entities": [
+                        {
+                            "entity": "UserRole:UserRole",
+                            "start": 26,
+                            "end": 35,
+                            "body": "Publisher",
+                            "entities": []
+                        },
+                        {
+                            "entity": "UserRole:UserRole",
+                            "start": 16,
+                            "end": 20,
+                            "body": "user",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 86,
+                    "end": 105,
+                    "body": "offer functionality",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 116,
+                    "end": 144,
+                    "body": "dataset publisher privileges",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As an admin I want to handle all users activities so that I can manage more efficiently.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 11,
+                    "body": "admin",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 22,
+                    "end": 28,
+                    "body": "handle",
+                    "entities": [
+                        {
+                            "entity": "RequirementType:software",
+                            "start": 0,
+                            "end": 6,
+                            "body": "handle",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 29,
+                    "end": 32,
+                    "body": "all",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 33,
+                    "end": 49,
+                    "body": "users activities",
+                    "entities": [
+                        {
+                            "entity": "UserRole:UserRole",
+                            "start": 0,
+                            "end": 5,
+                            "body": "users",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 60,
+                    "end": 87,
+                    "body": "can manage more efficiently",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As an admin I want to have all data encrypted so that important information will not be stolen during a server breach or an attack.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 11,
+                    "body": "admin",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 36,
+                    "end": 45,
+                    "body": "encrypted",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 54,
+                    "end": 64,
+                    "body": "important ",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 81,
+                    "end": 131,
+                    "body": "not be stolen during a server breach or an attack.",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 27,
+                    "end": 35,
+                    "body": "all data",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As an agency user I want to be confident that the data coming from SAM is complete.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 17,
+                    "body": "agency user",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 50,
+                    "end": 54,
+                    "body": "data",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 55,
+                    "end": 82,
+                    "body": "coming from SAM is complete",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 31,
+                    "end": 40,
+                    "body": "confident",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "As an executive I want to have full access to data related to my company so that I can have a sense of my company's performance.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 15,
+                    "body": " executive",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 30,
+                    "end": 35,
+                    "body": " full",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 36,
+                    "end": 42,
+                    "body": "access",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 46,
+                    "end": 50,
+                    "body": "data",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 50,
+                    "end": 127,
+                    "body": " related to my company so that I can have a sense of my company's performance",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "Automatic backup of all user data should occur nightly with a retention period of 30 days",
+            "entities": [
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 0,
+                    "end": 9,
+                    "body": "Automatic",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 10,
+                    "end": 16,
+                    "body": "backup",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 24,
+                    "end": 33,
+                    "body": "user data",
+                    "entities": [
+                        {
+                            "entity": "UserRole:UserRole",
+                            "start": 0,
+                            "end": 4,
+                            "body": "user",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 41,
+                    "end": 89,
+                    "body": "occur nightly with a retention period of 30 days",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "Can you explain the copyright laws?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Can you fix my printer?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Can you guide me on how to describe security requirements?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 8,
+                    "end": 16,
+                    "body": "guide me",
+                    "entities": []
+                },
+                {
+                    "entity": "help:help",
+                    "start": 19,
+                    "end": 36,
+                    "body": " how to describe ",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 36,
+                    "end": 57,
+                    "body": "security requirements",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "Can you guide me through the process of defining user roles?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 8,
+                    "end": 16,
+                    "body": "guide me",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 49,
+                    "end": 59,
+                    "body": "user roles",
+                    "entities": [
+                        {
+                            "entity": "UserRole:UserRole",
+                            "start": 0,
+                            "end": 4,
+                            "body": "user",
+                            "entities": []
+                        }
+                    ]
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ]
+        },
+        {
+            "text": "Can you help me understand how to specify the system\u2019s availability needs?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 13,
+                    "end": 15,
+                    "body": "me",
+                    "entities": []
+                },
+                {
+                    "entity": "help:help",
+                    "start": 27,
+                    "end": 30,
+                    "body": "how",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 46,
+                    "end": 52,
+                    "body": "system",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 55,
+                    "end": 67,
+                    "body": "availability",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "Can you help with our digital marketing strategy?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Can you prescribe medicine?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Can you show me how to outline the scalability requirements?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 16,
+                    "end": 19,
+                    "body": "how",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 35,
+                    "end": 46,
+                    "body": "scalability",
+                    "entities": []
+                },
+                {
+                    "entity": "help:help",
+                    "start": 0,
+                    "end": 15,
+                    "body": "Can you show me",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "Could you explain the different priority levels for these features?",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "Could you specify whether those users will be accessing the system globally or within a specific region?",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 32,
+                    "end": 37,
+                    "body": "users",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 46,
+                    "end": 55,
+                    "body": "accessing",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 67,
+                    "end": 103,
+                    "body": "globally or within a specific region",
+                    "entities": []
+                }
+            ],
+            "traits": []
+        },
+        {
+            "text": "Do you have any hobbies?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Good day, I'm here to discuss our tech needs",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 8,
+                    "body": "Good day",
+                    "entities": []
+                },
+                {
+                    "entity": "help:help",
+                    "start": 34,
+                    "end": 44,
+                    "body": "tech needs",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Good morning, I have some questions.",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 12,
+                    "body": "Good morning",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Good morning, can we talk about the new software development?",
+            "entities": [
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 40,
+                    "end": 48,
+                    "body": "software",
+                    "entities": []
+                },
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 12,
+                    "body": "Good morning",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Goodbye, let\u2019s continue this conversation later",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 0,
+                    "end": 7,
+                    "body": "Goodbye",
+                    "entities": []
+                },
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 42,
+                    "end": 47,
+                    "body": "later",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "Great talking, let's wrap up for today",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 5,
+                    "body": "Great",
+                    "entities": []
+                },
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 15,
+                    "end": 28,
+                    "body": "let's wrap up",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "Greetings, let's dive into the project details, shall we?",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 9,
+                    "body": "Greetings",
+                    "entities": []
+                },
+                {
+                    "entity": "help:help",
+                    "start": 17,
+                    "end": 21,
+                    "body": "dive",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Hello, I'd like to discuss some requirements for our new project.",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Hello, I'm ready to start discussing the project requirements.",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 5,
+                    "body": "Hello",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Hello, let\u2019s start with the requirement analysis.",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 5,
+                    "body": "Hello",
+                    "entities": []
+                },
+                {
+                    "entity": "begining:begining",
+                    "start": 7,
+                    "end": 18,
+                    "body": "let\u2019s start",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Hey, looking forward to our session on the system needs.",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 3,
+                    "body": "Hey",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 43,
+                    "end": 49,
+                    "body": "system",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Hi there",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Hi there, I have some questions about our application.",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 8,
+                    "body": "Hi there",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 42,
+                    "end": 53,
+                    "body": "application",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "Hi, ready to go over the software specs?",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 2,
+                    "body": "Hi",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 25,
+                    "end": 33,
+                    "body": "software",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 34,
+                    "end": 39,
+                    "body": "specs",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "How are you today?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "How can I express the need for backup and recovery processes?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 0,
+                    "end": 3,
+                    "body": "How",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 31,
+                    "end": 37,
+                    "body": "backup",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 42,
+                    "end": 50,
+                    "body": "recovery",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "How do I bake a cake?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "How do I book a flight to Tokyo?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "How do I file a patent?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "How do I save money on taxes?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "How should I specify the performance requirements for our application?",
+            "entities": [
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 25,
+                    "end": 49,
+                    "body": "performance requirements",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 58,
+                    "end": 69,
+                    "body": "application",
+                    "entities": []
+                },
+                {
+                    "entity": "help:help",
+                    "start": 0,
+                    "end": 3,
+                    "body": "How",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "I appreciate your time, let\u2019s call it a day.",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 24,
+                    "end": 43,
+                    "body": "let\u2019s call it a day",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "I need assistance with documenting our database specifications, can you assist?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 2,
+                    "end": 17,
+                    "body": "need assistance",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 23,
+                    "end": 34,
+                    "body": "documenting",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 39,
+                    "end": 47,
+                    "body": "database",
+                    "entities": []
+                },
+                {
+                    "entity": "help:help",
+                    "start": 64,
+                    "end": 78,
+                    "body": "can you assist",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "I'm not sure how to describe the security needs; can you help?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 13,
+                    "end": 28,
+                    "body": "how to describe",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 33,
+                    "end": 47,
+                    "body": "security needs",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "I've got what I needed, farewell!",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 24,
+                    "end": 33,
+                    "body": "farewell!",
+                    "entities": []
+                },
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 1,
+                    "end": 22,
+                    "body": "'ve got what I needed",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "It's crucial that the platform can integrate seamlessly with our existing CRM software",
+            "entities": [
+                {
+                    "entity": "PriorityLevel:high",
+                    "start": 5,
+                    "end": 12,
+                    "body": "crucial",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 22,
+                    "end": 30,
+                    "body": "platform",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 35,
+                    "end": 44,
+                    "body": "integrate",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 74,
+                    "end": 77,
+                    "body": "CRM",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "I\u2019m confused about functional vs non-functional requirements, can you clarify?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 4,
+                    "end": 12,
+                    "body": "confused",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "Should I invest in stocks?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Thanks for the help, I\u2019ll catch up with you later",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 0,
+                    "end": 43,
+                    "body": "Thanks for the help, I\u2019ll catch up with you",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "That concludes our session, have a good day",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 0,
+                    "end": 34,
+                    "body": "That concludes our session, have a",
+                    "entities": []
+                },
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 35,
+                    "end": 43,
+                    "body": "good day",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "That's all for now, thanks for the discussion",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 20,
+                    "end": 34,
+                    "body": "thanks for the",
+                    "entities": []
+                },
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 0,
+                    "end": 18,
+                    "body": "That's all for now",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "That's all the requirements for now. Thank you for your assistance.",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 37,
+                    "end": 46,
+                    "body": "Thank you",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "The application must support concurrent access by at least 1000 users.",
+            "entities": [
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 4,
+                    "end": 15,
+                    "body": "application",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 29,
+                    "end": 46,
+                    "body": "concurrent access",
+                    "entities": []
+                },
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 50,
+                    "end": 69,
+                    "body": "at least 1000 users",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Urgency",
+                    "value": "medium"
+                }
+            ],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "The software has to support multiple languages, including English, Spanish, and Mandarin, at launch",
+            "entities": [
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 4,
+                    "end": 12,
+                    "body": "software",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 20,
+                    "end": 46,
+                    "body": "support multiple languages",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 58,
+                    "end": 65,
+                    "body": "English",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 67,
+                    "end": 74,
+                    "body": "Spanish",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 80,
+                    "end": 88,
+                    "body": "Mandarin",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 93,
+                    "end": 99,
+                    "body": "launch",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "The system needs to ensure data is encrypted both in transit and at rest",
+            "entities": [
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 3,
+                    "end": 10,
+                    "body": " system",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 27,
+                    "end": 31,
+                    "body": "data",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 35,
+                    "end": 44,
+                    "body": "encrypted",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 53,
+                    "end": 60,
+                    "body": "transit",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 65,
+                    "end": 72,
+                    "body": "at rest",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "The website must be able to handle up to 10,000 visitors simultaneously without performance degradation",
+            "entities": [
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 3,
+                    "end": 11,
+                    "body": " website",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 28,
+                    "end": 34,
+                    "body": "handle",
+                    "entities": []
+                },
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 48,
+                    "end": 56,
+                    "body": "visitors",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 57,
+                    "end": 71,
+                    "body": "simultaneously",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 72,
+                    "end": 103,
+                    "body": "without performance degradation",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "There should be multi-factor authentication for all users accessing sensitive data.",
+            "entities": [
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 16,
+                    "end": 43,
+                    "body": "multi-factor authentication",
+                    "entities": []
+                },
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 52,
+                    "end": 57,
+                    "body": "users",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 58,
+                    "end": 67,
+                    "body": "accessing",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 68,
+                    "end": 83,
+                    "body": "sensitive data.",
+                    "entities": [
+                        {
+                            "entity": "PriorityLevel:high",
+                            "start": 0,
+                            "end": 9,
+                            "body": "sensitive",
+                            "entities": []
+                        }
+                    ]
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "They will be accessing it globally, and it's critical for our international teams.",
+            "entities": [
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 13,
+                    "end": 22,
+                    "body": "accessing",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 26,
+                    "end": 34,
+                    "body": "globally",
+                    "entities": []
+                },
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 62,
+                    "end": 82,
+                    "body": "international teams.",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:high",
+                    "start": 45,
+                    "end": 53,
+                    "body": "critical",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Urgency",
+                    "value": "high"
+                }
+            ],
+            "intent": "Confirmation"
+        },
+        {
+            "text": "Users should be able to generate reports in real-time without any significant delay",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 0,
+                    "end": 5,
+                    "body": "Users",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 24,
+                    "end": 32,
+                    "body": "generate",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 33,
+                    "end": 40,
+                    "body": "reports",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 44,
+                    "end": 53,
+                    "body": "real-time",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 54,
+                    "end": 83,
+                    "body": "without any significant delay",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "We need the ability to export data in CSV, PDF, and Excel formats easily",
+            "entities": [
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 23,
+                    "end": 29,
+                    "body": "export",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 30,
+                    "end": 34,
+                    "body": "data",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 38,
+                    "end": 41,
+                    "body": "CSV",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 42,
+                    "end": 46,
+                    "body": " PDF",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:software",
+                    "start": 52,
+                    "end": 57,
+                    "body": "Excel",
+                    "entities": []
+                },
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 66,
+                    "end": 72,
+                    "body": "easily",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "We require the application to be accessible on both iOS and Android mobile devices",
+            "entities": [
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 15,
+                    "end": 26,
+                    "body": "application",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 52,
+                    "end": 55,
+                    "body": "iOS",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 60,
+                    "end": 67,
+                    "body": "Android",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 68,
+                    "end": 82,
+                    "body": "mobile devices",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 33,
+                    "end": 43,
+                    "body": "accessible",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "We're done with the requirements, bye for now",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 34,
+                    "end": 45,
+                    "body": "bye for now",
+                    "entities": []
+                },
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 0,
+                    "end": 10,
+                    "body": "We're done",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "We've covered everything, see you next time",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 30,
+                    "end": 43,
+                    "body": "you next time",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "What are the best vacation spots in Europe?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "What are the symptoms of the flu?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "What information do we need for integrating third-party services?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 0,
+                    "end": 27,
+                    "body": "What information do we need",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 32,
+                    "end": 43,
+                    "body": "integrating",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:scope",
+                    "start": 44,
+                    "end": 64,
+                    "body": "third-party services",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "What movies are playing tonight?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "What's the latest news on the stock market?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Which book should I read next?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Who is the current president of France?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Who won the World Cup?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "Why is my internet slow?",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "as a user i want to specify schema as a sql schema string",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 5,
+                    "end": 9,
+                    "body": "user",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 19,
+                    "end": 57,
+                    "body": " specify schema as a sql schema string",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "as an administrator i want to create user   roles so that i can group users by role.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 19,
+                    "body": "administrator",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 30,
+                    "end": 36,
+                    "body": "create",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:unit",
+                    "start": 37,
+                    "end": 49,
+                    "body": "user   roles",
+                    "entities": [
+                        {
+                            "entity": "UserRole:UserRole",
+                            "start": 0,
+                            "end": 4,
+                            "body": "user",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "clarify:clarify",
+                    "start": 58,
+                    "end": 84,
+                    "body": "i can group users by role.",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "as an user i want to take a picture or upload an image",
+            "entities": [
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 21,
+                    "end": 35,
+                    "body": "take a picture",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 39,
+                    "end": 54,
+                    "body": "upload an image",
+                    "entities": []
+                },
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 10,
+                    "body": "user",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "as an user i want to take a picture or upload an image.",
+            "entities": [
+                {
+                    "entity": "UserRole:UserRole",
+                    "start": 6,
+                    "end": 10,
+                    "body": "user",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 21,
+                    "end": 35,
+                    "body": "take a picture",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 39,
+                    "end": 55,
+                    "body": "upload an image.",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "end",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 0,
+                    "end": 3,
+                    "body": "end",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        },
+        {
+            "text": "give me your name",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "hello how are you",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "hey how are you",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "hi",
+            "entities": [
+                {
+                    "entity": "Salutation:Salutation",
+                    "start": 0,
+                    "end": 2,
+                    "body": "hi",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "greeting"
+        },
+        {
+            "text": "i need your help",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "Urgency",
+                    "value": "high"
+                }
+            ],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "i want a feature to save a picture in my website",
+            "entities": [
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 20,
+                    "end": 48,
+                    "body": "save a picture in my website",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 9,
+                    "end": 16,
+                    "body": "feature",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "i want to automatically embed metadata in file headers so that i avoid repetitive and easily forgotten tasks",
+            "entities": [
+                {
+                    "entity": "PriorityLevel:PriorityLevel",
+                    "start": 9,
+                    "end": 23,
+                    "body": " automatically",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 24,
+                    "end": 55,
+                    "body": "embed metadata in file headers ",
+                    "entities": [
+                        {
+                            "entity": "FunctionalArea:FunctionalArea",
+                            "start": 18,
+                            "end": 30,
+                            "body": "file headers",
+                            "entities": []
+                        }
+                    ]
+                },
+                {
+                    "entity": "clarify:clarify",
+                    "start": 63,
+                    "end": 108,
+                    "body": "i avoid repetitive and easily forgotten tasks",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "i want to browse  content by author or subject area to locate needed resources.",
+            "entities": [
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 10,
+                    "end": 25,
+                    "body": "browse  content",
+                    "entities": []
+                },
+                {
+                    "entity": "FunctionalArea:FunctionalArea",
+                    "start": 29,
+                    "end": 51,
+                    "body": "author or subject area",
+                    "entities": []
+                },
+                {
+                    "entity": "RequirementType:RequirementType",
+                    "start": 55,
+                    "end": 78,
+                    "body": "locate needed resources",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "RequirementGathering"
+        },
+        {
+            "text": "no",
+            "entities": [],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "ClarificationRequest"
+        },
+        {
+            "text": "summary?",
+            "entities": [
+                {
+                    "entity": "help:help",
+                    "start": 0,
+                    "end": 7,
+                    "body": "summary",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "HelpRequest"
+        },
+        {
+            "text": "thank you",
+            "entities": [
+                {
+                    "entity": "Conclusion:Conclusion",
+                    "start": 0,
+                    "end": 9,
+                    "body": "thank you",
+                    "entities": []
+                }
+            ],
+            "traits": [
+                {
+                    "trait": "Politeness",
+                    "value": "polite"
+                }
+            ],
+            "intent": "Farewell"
+        }
+    ]
+}

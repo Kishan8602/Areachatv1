@@ -1,0 +1,96 @@
+{
+    "name": "FunctionalArea",
+    "roles": [
+        "FunctionalArea"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Android",
+            "synonyms": [
+                "android"
+            ]
+        },
+        {
+            "keyword": "Python Client",
+            "synonyms": [
+                "python client"
+            ]
+        },
+        {
+            "keyword": "application",
+            "synonyms": [
+                "application"
+            ]
+        },
+        {
+            "keyword": "apps So that I can customise the branding for my   own needs",
+            "synonyms": [
+                "apps so that i can customise the branding for my   own needs"
+            ]
+        },
+        {
+            "keyword": "author or subject area",
+            "synonyms": [
+                "author or subject area"
+            ]
+        },
+        {
+            "keyword": "cli",
+            "synonyms": [
+                "cli"
+            ]
+        },
+        {
+            "keyword": "file headers",
+            "synonyms": [
+                "file headers"
+            ]
+        },
+        {
+            "keyword": "iOS",
+            "synonyms": [
+                "ios"
+            ]
+        },
+        {
+            "keyword": "mobile devices",
+            "synonyms": [
+                "mobile devices"
+            ]
+        },
+        {
+            "keyword": "platform",
+            "synonyms": [
+                "platform"
+            ]
+        },
+        {
+            "keyword": "social networks",
+            "synonyms": [
+                "social networks"
+            ]
+        },
+        {
+            "keyword": "software",
+            "synonyms": [
+                "software"
+            ]
+        },
+        {
+            "keyword": "system",
+            "synonyms": [
+                "system"
+            ]
+        },
+        {
+            "keyword": "website",
+            "synonyms": [
+                "website"
+            ]
+        }
+    ]
+}

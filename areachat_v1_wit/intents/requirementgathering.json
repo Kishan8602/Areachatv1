@@ -1,0 +1,15 @@
+{
+    "name": "RequirementGathering",
+    "entities": [
+        "FunctionalArea:FunctionalArea",
+        "PriorityLevel:PriorityLevel",
+        "PriorityLevel:high",
+        "RequirementType:RequirementType",
+        "RequirementType:scope",
+        "RequirementType:software",
+        "RequirementType:unit",
+        "UserRole:Adminrole",
+        "UserRole:UserRole",
+        "clarify:clarify"
+    ]
+}

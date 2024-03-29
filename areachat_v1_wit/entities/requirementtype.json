@@ -1,0 +1,671 @@
+{
+    "name": "RequirementType",
+    "roles": [
+        "RequirementType",
+        "scope",
+        "software",
+        "unit"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Automatic",
+            "synonyms": [
+                "automatic"
+            ]
+        },
+        {
+            "keyword": "Brand",
+            "synonyms": [
+                "brand"
+            ]
+        },
+        {
+            "keyword": "CRM",
+            "synonyms": [
+                "crm"
+            ]
+        },
+        {
+            "keyword": "CSV",
+            "synonyms": [
+                "csv"
+            ]
+        },
+        {
+            "keyword": "CSV file is valid",
+            "synonyms": [
+                "csv file is valid"
+            ]
+        },
+        {
+            "keyword": "English",
+            "synonyms": [
+                "english"
+            ]
+        },
+        {
+            "keyword": "Excel",
+            "synonyms": [
+                "excel"
+            ]
+        },
+        {
+            "keyword": "Javascript",
+            "synonyms": [
+                "javascript"
+            ]
+        },
+        {
+            "keyword": "Mandarin",
+            "synonyms": [
+                "mandarin"
+            ]
+        },
+        {
+            "keyword": "Name and Icon",
+            "synonyms": [
+                "name and icon"
+            ]
+        },
+        {
+            "keyword": "PDF",
+            "synonyms": [
+                "pdf"
+            ]
+        },
+        {
+            "keyword": "Platform Administration privileges",
+            "synonyms": [
+                "platform administration privileges"
+            ]
+        },
+        {
+            "keyword": "Primary Color",
+            "synonyms": [
+                "primary color"
+            ]
+        },
+        {
+            "keyword": "Python",
+            "synonyms": [
+                "python"
+            ]
+        },
+        {
+            "keyword": "Spanish",
+            "synonyms": [
+                "spanish"
+            ]
+        },
+        {
+            "keyword": "URL",
+            "synonyms": [
+                "url"
+            ]
+        },
+        {
+            "keyword": "access",
+            "synonyms": [
+                "access"
+            ]
+        },
+        {
+            "keyword": "accessible",
+            "synonyms": [
+                "accessible"
+            ]
+        },
+        {
+            "keyword": "accessing",
+            "synonyms": [
+                "accessing"
+            ]
+        },
+        {
+            "keyword": "add data to the datastore in bulk from the command line",
+            "synonyms": [
+                "add data to the datastore in bulk from the command line"
+            ]
+        },
+        {
+            "keyword": "all data",
+            "synonyms": [
+                "all data"
+            ]
+        },
+        {
+            "keyword": "at rest",
+            "synonyms": [
+                "at rest"
+            ]
+        },
+        {
+            "keyword": "availability",
+            "synonyms": [
+                "availability"
+            ]
+        },
+        {
+            "keyword": "available",
+            "synonyms": [
+                "available"
+            ]
+        },
+        {
+            "keyword": "backup",
+            "synonyms": [
+                "backup"
+            ]
+        },
+        {
+            "keyword": "browse  content",
+            "synonyms": [
+                "browse  content"
+            ]
+        },
+        {
+            "keyword": "build",
+            "synonyms": [
+                "build"
+            ]
+        },
+        {
+            "keyword": "can assign them",
+            "synonyms": [
+                "can assign them"
+            ]
+        },
+        {
+            "keyword": "can manage more efficiently",
+            "synonyms": [
+                "can manage more efficiently"
+            ]
+        },
+        {
+            "keyword": "coming from SAM is complete",
+            "synonyms": [
+                "coming from sam is complete"
+            ]
+        },
+        {
+            "keyword": "concurrent access",
+            "synonyms": [
+                "concurrent access"
+            ]
+        },
+        {
+            "keyword": "create",
+            "synonyms": [
+                "create"
+            ]
+        },
+        {
+            "keyword": "customise",
+            "synonyms": [
+                "customise"
+            ]
+        },
+        {
+            "keyword": "data",
+            "synonyms": [
+                "data"
+            ]
+        },
+        {
+            "keyword": "data formats in order",
+            "synonyms": [
+                "data formats in order"
+            ]
+        },
+        {
+            "keyword": "data in other tools",
+            "synonyms": [
+                "data in other tools"
+            ]
+        },
+        {
+            "keyword": "data package",
+            "synonyms": [
+                "data package"
+            ]
+        },
+        {
+            "keyword": "data packages is",
+            "synonyms": [
+                "data packages is"
+            ]
+        },
+        {
+            "keyword": "database",
+            "synonyms": [
+                "database"
+            ]
+        },
+        {
+            "keyword": "dataset",
+            "synonyms": [
+                "dataset"
+            ]
+        },
+        {
+            "keyword": "dataset publisher privileges",
+            "synonyms": [
+                "dataset publisher privileges"
+            ]
+        },
+        {
+            "keyword": "datasets",
+            "synonyms": [
+                "datasets"
+            ]
+        },
+        {
+            "keyword": "deleted",
+            "synonyms": [
+                "deleted"
+            ]
+        },
+        {
+            "keyword": "documenting",
+            "synonyms": [
+                "documenting"
+            ]
+        },
+        {
+            "keyword": "download a",
+            "synonyms": [
+                "download a"
+            ]
+        },
+        {
+            "keyword": "edit a dataset I have",
+            "synonyms": [
+                "edit a dataset i have"
+            ]
+        },
+        {
+            "keyword": "embed metadata in file headers",
+            "synonyms": [
+                "embed metadata in file headers"
+            ]
+        },
+        {
+            "keyword": "encrypted",
+            "synonyms": [
+                "encrypted"
+            ]
+        },
+        {
+            "keyword": "enhance existing data",
+            "synonyms": [
+                "enhance existing data"
+            ]
+        },
+        {
+            "keyword": "export",
+            "synonyms": [
+                "export"
+            ]
+        },
+        {
+            "keyword": "feature",
+            "synonyms": [
+                "feature"
+            ]
+        },
+        {
+            "keyword": "filter sort and aggregate data by multiple dimensions and measures",
+            "synonyms": [
+                "filter sort and aggregate data by multiple dimensions and measures"
+            ]
+        },
+        {
+            "keyword": "generate",
+            "synonyms": [
+                "generate"
+            ]
+        },
+        {
+            "keyword": "get",
+            "synonyms": [
+                "get"
+            ]
+        },
+        {
+            "keyword": "globally",
+            "synonyms": [
+                "globally"
+            ]
+        },
+        {
+            "keyword": "globally or within a specific region",
+            "synonyms": [
+                "globally or within a specific region"
+            ]
+        },
+        {
+            "keyword": "granular views",
+            "synonyms": [
+                "granular views"
+            ]
+        },
+        {
+            "keyword": "handle",
+            "synonyms": [
+                "handle"
+            ]
+        },
+        {
+            "keyword": "import data in",
+            "synonyms": [
+                "import data in"
+            ]
+        },
+        {
+            "keyword": "integrate",
+            "synonyms": [
+                "integrate"
+            ]
+        },
+        {
+            "keyword": "integrating",
+            "synonyms": [
+                "integrating"
+            ]
+        },
+        {
+            "keyword": "locate needed resources",
+            "synonyms": [
+                "locate needed resources"
+            ]
+        },
+        {
+            "keyword": "metadata",
+            "synonyms": [
+                "metadata"
+            ]
+        },
+        {
+            "keyword": "multi-factor authentication",
+            "synonyms": [
+                "multi-factor authentication"
+            ]
+        },
+        {
+            "keyword": "my own programs",
+            "synonyms": [
+                "my own programs"
+            ]
+        },
+        {
+            "keyword": "not be stolen during a server breach or an attack.",
+            "synonyms": [
+                "not be stolen during a server breach or an attack."
+            ]
+        },
+        {
+            "keyword": "occur nightly with a retention period of 30 days",
+            "synonyms": [
+                "occur nightly with a retention period of 30 days"
+            ]
+        },
+        {
+            "keyword": "offer functionality",
+            "synonyms": [
+                "offer functionality"
+            ]
+        },
+        {
+            "keyword": "offer functionality based on  Platform Administration privileges",
+            "synonyms": [
+                "offer functionality based on  platform administration privileges"
+            ]
+        },
+        {
+            "keyword": "output of any   cube-based query",
+            "synonyms": [
+                "output of any   cube-based query"
+            ]
+        },
+        {
+            "keyword": "performance requirements",
+            "synonyms": [
+                "performance requirements"
+            ]
+        },
+        {
+            "keyword": "published so that I can correct or",
+            "synonyms": [
+                "published so that i can correct or"
+            ]
+        },
+        {
+            "keyword": "real-time",
+            "synonyms": [
+                "real-time"
+            ]
+        },
+        {
+            "keyword": "recovery",
+            "synonyms": [
+                "recovery"
+            ]
+        },
+        {
+            "keyword": "related to my company so that I can have a sense of my company's performance",
+            "synonyms": [
+                "related to my company so that i can have a sense of my company's performance"
+            ]
+        },
+        {
+            "keyword": "reports",
+            "synonyms": [
+                "reports"
+            ]
+        },
+        {
+            "keyword": "restore",
+            "synonyms": [
+                "restore"
+            ]
+        },
+        {
+            "keyword": "rollback changes up to seven days",
+            "synonyms": [
+                "rollback changes up to seven days"
+            ]
+        },
+        {
+            "keyword": "save a picture in my website",
+            "synonyms": [
+                "save a picture in my website"
+            ]
+        },
+        {
+            "keyword": "scalability",
+            "synonyms": [
+                "scalability"
+            ]
+        },
+        {
+            "keyword": "search",
+            "synonyms": [
+                "search"
+            ]
+        },
+        {
+            "keyword": "security needs",
+            "synonyms": [
+                "security needs"
+            ]
+        },
+        {
+            "keyword": "security requirements",
+            "synonyms": [
+                "security requirements"
+            ]
+        },
+        {
+            "keyword": "sensitive data.",
+            "synonyms": [
+                "sensitive data."
+            ]
+        },
+        {
+            "keyword": "share a",
+            "synonyms": [
+                "share a"
+            ]
+        },
+        {
+            "keyword": "share data that I have found with others",
+            "synonyms": [
+                "share data that i have found with others"
+            ]
+        },
+        {
+            "keyword": "simultaneously",
+            "synonyms": [
+                "simultaneously"
+            ]
+        },
+        {
+            "keyword": "specify schema as a sql schema string",
+            "synonyms": [
+                "specify schema as a sql schema string"
+            ]
+        },
+        {
+            "keyword": "specs",
+            "synonyms": [
+                "specs"
+            ]
+        },
+        {
+            "keyword": "support multiple languages",
+            "synonyms": [
+                "support multiple languages"
+            ]
+        },
+        {
+            "keyword": "take a picture",
+            "synonyms": [
+                "take a picture"
+            ]
+        },
+        {
+            "keyword": "third-party services",
+            "synonyms": [
+                "third-party services"
+            ]
+        },
+        {
+            "keyword": "to have roles",
+            "synonyms": [
+                "to have roles"
+            ]
+        },
+        {
+            "keyword": "to understand if a user is   an Administrator",
+            "synonyms": [
+                "to understand if a user is   an administrator"
+            ]
+        },
+        {
+            "keyword": "transit",
+            "synonyms": [
+                "transit"
+            ]
+        },
+        {
+            "keyword": "undelete",
+            "synonyms": [
+                "undelete"
+            ]
+        },
+        {
+            "keyword": "understand if a user is a Publisher",
+            "synonyms": [
+                "understand if a user is   a publisher",
+                "understand if a user is a publisher"
+            ]
+        },
+        {
+            "keyword": "upload an image.",
+            "synonyms": [
+                "upload an image",
+                "upload an image."
+            ]
+        },
+        {
+            "keyword": "use metadata to get   results from multiple datasets",
+            "synonyms": [
+                "use metadata to get   results from multiple datasets"
+            ]
+        },
+        {
+            "keyword": "user   roles",
+            "synonyms": [
+                "user   roles"
+            ]
+        },
+        {
+            "keyword": "user data",
+            "synonyms": [
+                "user data"
+            ]
+        },
+        {
+            "keyword": "user experiences based on",
+            "synonyms": [
+                "user experiences based on"
+            ]
+        },
+        {
+            "keyword": "user roles",
+            "synonyms": [
+                "user roles"
+            ]
+        },
+        {
+            "keyword": "users activities",
+            "synonyms": [
+                "users activities"
+            ]
+        },
+        {
+            "keyword": "view  download",
+            "synonyms": [
+                "view  download"
+            ]
+        },
+        {
+            "keyword": "view state as a URL to social networks",
+            "synonyms": [
+                "view state as a url to social networks"
+            ]
+        },
+        {
+            "keyword": "visible",
+            "synonyms": [
+                "visible"
+            ]
+        },
+        {
+            "keyword": "without performance degradation",
+            "synonyms": [
+                "without performance degradation"
+            ]
+        },
+        {
+            "keyword": "work with tools that read CSV",
+            "synonyms": [
+                "work with tools that read csv"
+            ]
+        }
+    ]
+}

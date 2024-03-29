@@ -1,0 +1,24 @@
+{
+    "name": "clarify",
+    "roles": [
+        "clarify"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "i avoid repetitive and easily forgotten tasks",
+            "synonyms": [
+                "i avoid repetitive and easily forgotten tasks"
+            ]
+        },
+        {
+            "keyword": "i can group users by role.",
+            "synonyms": [
+                "i can group users by role."
+            ]
+        }
+    ]
+}

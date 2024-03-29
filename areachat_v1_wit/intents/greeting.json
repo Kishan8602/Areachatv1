@@ -1,0 +1,12 @@
+{
+    "name": "greeting",
+    "entities": [
+        "Conclusion:Conclusion",
+        "FunctionalArea:FunctionalArea",
+        "PriorityLevel:high",
+        "RequirementType:RequirementType",
+        "Salutation:Salutation",
+        "begining:begining",
+        "help:help"
+    ]
+}

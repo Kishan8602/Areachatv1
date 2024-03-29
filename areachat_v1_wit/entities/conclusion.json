@@ -1,0 +1,114 @@
+{
+    "name": "Conclusion",
+    "roles": [
+        "Conclusion"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "'ve got what I needed",
+            "synonyms": [
+                "'ve got what i needed"
+            ]
+        },
+        {
+            "keyword": "Alright, I'm signing off for now",
+            "synonyms": [
+                "alright, i'm signing off for now"
+            ]
+        },
+        {
+            "keyword": "Good morning",
+            "synonyms": [
+                "good morning"
+            ]
+        },
+        {
+            "keyword": "Goodbye",
+            "synonyms": [
+                "goodbye"
+            ]
+        },
+        {
+            "keyword": "Thank you",
+            "synonyms": [
+                "thank you"
+            ]
+        },
+        {
+            "keyword": "Thanks for the help, I\u2019ll catch up with you",
+            "synonyms": [
+                "thanks for the help, i\u2019ll catch up with you"
+            ]
+        },
+        {
+            "keyword": "That concludes our session, have a",
+            "synonyms": [
+                "that concludes our session, have a"
+            ]
+        },
+        {
+            "keyword": "That's all for now",
+            "synonyms": [
+                "that's all for now"
+            ]
+        },
+        {
+            "keyword": "We're done",
+            "synonyms": [
+                "we're done"
+            ]
+        },
+        {
+            "keyword": "bye for now",
+            "synonyms": [
+                "bye for now"
+            ]
+        },
+        {
+            "keyword": "end",
+            "synonyms": [
+                "end"
+            ]
+        },
+        {
+            "keyword": "farewell!",
+            "synonyms": [
+                "farewell!"
+            ]
+        },
+        {
+            "keyword": "later",
+            "synonyms": [
+                "later"
+            ]
+        },
+        {
+            "keyword": "let's wrap up",
+            "synonyms": [
+                "let's wrap up"
+            ]
+        },
+        {
+            "keyword": "let\u2019s call it a day",
+            "synonyms": [
+                "let\u2019s call it a day"
+            ]
+        },
+        {
+            "keyword": "thanks for the",
+            "synonyms": [
+                "thanks for the"
+            ]
+        },
+        {
+            "keyword": "you next time",
+            "synonyms": [
+                "you next time"
+            ]
+        }
+    ]
+}

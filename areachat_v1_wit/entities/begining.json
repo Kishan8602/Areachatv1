@@ -1,0 +1,24 @@
+{
+    "name": "begining",
+    "roles": [
+        "begining"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "let\u2019s start",
+            "synonyms": [
+                "let\u2019s start"
+            ]
+        },
+        {
+            "keyword": "time to talk",
+            "synonyms": [
+                "time to talk"
+            ]
+        }
+    ]
+}
