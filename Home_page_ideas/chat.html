@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with AI</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            background-color: #121212; 
+            color: white;
+        }
+        #chat-container { 
+            max-width: 800px; 
+            width: 90%;
+            margin: 20px auto; 
+            border: 1px solid #333; 
+            background-color: #1e1e1e; 
+        }
+        #header {
+            background-color: #000; 
+            text-align: center; 
+            color: white; 
+            padding: 10px 0; 
+            font-size: 24px; 
+        }
+        #chat-history { 
+            height: 400px; 
+            overflow-y: auto; 
+            border: 1px solid #333; 
+            padding: 10px; 
+            margin-bottom: 10px; 
+        }
+        #chat-history p { 
+            margin: 0; 
+            padding: 5px; 
+        }
+        .user-message { text-align: right; }
+        .ai-message { text-align: left; }
+        
+        #message-box {
+            position: relative;
+            border-top: 1px solid #333;
+        }
+
+        #message { 
+            width: 98.7%;
+            padding: 10px 0.5px 10px 10px; /* Right padding to prevent text from overlapping with the button */
+            background-color: #333;
+            border: none;
+            color: white;
+            border-radius: 0;
+        }
+
+        #send { 
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 10px;
+            background-color: #333;
+            border: none;
+            color: rgb(23, 220, 168);
+            cursor: pointer;
+            height: 100%;
+            width: 40px; /* Control width of the send button */
+            border-radius: 0;
+        }
+    </style>  
+
+
+
+</head>
+<body>
+
+    <div id="chat-container">
+        <div id="header">AREACHAT</div>
+        <div id="chat-history">
+            <!-- Chat history will be displayed here -->
+        </div>
+        <div id="message-box">
+            <input type="text" id="message" placeholder="Type your message...">
+            <button id="send">&#10148;</button>
+        </div>
+    </div>
+
+    
+
+    <script>
+        document.getElementById("send").onclick = sendMessage;
+        document.getElementById("message").addEventListener("keypress", function(e) {
+            if (e.key === "Enter") {
+                sendMessage();
+            }
+        });
+
+        function sendMessage() {
+            let messageInput = document.getElementById("message");
+            let userMessage = messageInput.value;
+            if (userMessage.trim() === '') return;
+
+            addMessageToChatHistory('You', userMessage, 'user-message');
+
+            fetch("/get_response", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: userMessage })
+            })
+            .then(response => response.json())
+            .then(data => {
+                addMessageToChatHistory('AI', data.response, 'ai-message');
+                messageInput.value = ""; // Clear input after sending
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        function addMessageToChatHistory(sender, message, className) {
+            let chatHistory = document.getElementById("chat-history");
+            let messageElement = document.createElement("p");
+            messageElement.className = className;
+            messageElement.textContent = `${sender}: ${message}`;
+            chatHistory.appendChild(messageElement);
+            chatHistory.scrollTop = chatHistory.scrollHeight; // Scroll to the bottom
+        }
+    </script>
+</body>
+</html>
